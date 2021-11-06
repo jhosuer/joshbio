@@ -70,3 +70,24 @@ button {
 .works .workscontent p {
   margin-left: 16px;
 }
+
+@media screen and (max-width: 428px) {
+
+  .non-work .content .workscontent p{
+
+    margin-top:  40px;
+  }
+  .non-work .content .image {
+    margin-top: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+    
+  }
+  .non-work .content .image img {
+    position: relative;
+    bottom: 40px;
+    max-width: 400px;
+}
+.loginmockup .tech4dev p:last-child {
+  margin-top: 60px;
+}

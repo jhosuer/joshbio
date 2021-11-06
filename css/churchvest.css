@@ -30,3 +30,21 @@ html,body {
 .opportunities .content-0 p {
 	margin-top: 40px;
 }
+
+@media screen and (max-width: 428px) {
+	.projectdetails .opportunities .content {
+		margin-top: 20px;
+	}
+	.projectdetails .opportunities .content img {
+		max-width: 390px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.projectdetails .opportunities .content {
+		margin-top: 20px;
+	}
+	.projectdetails .opportunities .content img {
+		max-width: 320px;
+	}
+}

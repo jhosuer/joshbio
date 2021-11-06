@@ -345,14 +345,14 @@ h4, h5,h6 {
 	}
 
 	.researchimage img, .loginmockup .image img, .acs .body img, .ideation .ideation-img .body img, .sketches .body img {
-		max-width: 240px;
+		max-width: 340px;
 	}
 	.loginmockup .image a img {
-		max-width: 220px;
+		max-width: 320px;
 	}
 
 	.conclusion .body .image img {
-		max-width:  240px;
+		max-width:  320px;
 	}
 	footer ul li {
 		margin: 40px 0px;
@@ -374,5 +374,15 @@ h4, h5,h6 {
 	}
 	.projectdetails .atr .content-0 p, .projectdetails .atc .content-0 p,.projectdetails .tvuf p, .solution .content-0 p {
 		margin: 0px 0px;
+	}
+
+	.projectdetails .content-0 div p, .projectdetails .content-0 div p {
+
+		max-width:  320px;
+		margin-left: 0px;
+	}
+
+	.projectdetails .testimonial img {
+		max-width: 340px;
 	}
 }

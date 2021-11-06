@@ -5,3 +5,12 @@
 	display: flex;
 	justify-content: flex-start;
 }
+
+@media screen and (max-width: 428px) {
+
+	.prototypestage .ideation-img .body  {
+		display: flex;
+		flex-direction: column;
+	}
+
+}

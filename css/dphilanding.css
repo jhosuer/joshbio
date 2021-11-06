@@ -26,3 +26,11 @@
 	line-height: 180%;
 	opacity: 0.5;
 }
+@media screen and (max-width: 428px) {
+
+	.prototypestage .ideation-img .body {
+		display: flex;
+		flex-direction: column;
+	}
+
+}
