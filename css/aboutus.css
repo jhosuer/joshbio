@@ -1,0 +1,72 @@
+@import 'index.css';
+@import 'assess.css';
+
+nav, .herosection {
+  background-color: #F7F5FF;
+}
+
+
+h1 {
+
+  background: linear-gradient(180deg, #5039A3 0%, #DCD7ED 117.02%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.herosection div .content h5 {
+  color: #C5BDE0;
+}
+
+.works .workscontent p {
+  max-width: 851px;
+  line-height: 220%;
+}
+
+#text{
+  display:none;
+}
+
+button {
+  background-color: #FFFEF5;
+  border: 1px solid hsla(54, 94%, 46%, 1);
+}
+
+.tertiarybuttonghost {
+  height: 45px;
+  width: 132px;
+}
+.mcp p, .tech4dev p {
+  text-align: left;
+}
+.malon {
+  margin: 120px 0px;
+  display: flex;
+  justify-content: center;
+}
+.malon .tech4dev p {
+  max-width: 600px;
+}
+.non-work {
+  background-color: #DCD3FF;
+  padding: 60px 0px;
+  display: flex;
+  /*align-items: flex-start;*/
+}
+.non-work .content {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  justify-content: flex-start;
+  margin: 0px;
+}
+.non-work .header .body {
+ /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;*/
+  text-align: center;
+}
+.works .workscontent p {
+  margin-left: 16px;
+}

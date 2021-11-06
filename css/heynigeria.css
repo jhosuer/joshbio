@@ -1,0 +1,7 @@
+@import 'index.css';
+@import 'assess.css';
+
+.herosection {
+	display: flex;
+	justify-content: flex-start;
+}

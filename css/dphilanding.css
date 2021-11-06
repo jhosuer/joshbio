@@ -1,0 +1,28 @@
+@import 'index.css';
+@import 'assess.css';
+
+.herosection {
+	/*margin: 0px 0px ;*/
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+.herosection .div .content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: flex-end;
+}
+
+.prototypestage .body {
+	margin-top: 60px;
+}
+
+.prototypestage .body .content p {
+	line-height: 200%;
+}
+
+.prototypestage .summary div h5 {
+	line-height: 180%;
+	opacity: 0.5;
+}

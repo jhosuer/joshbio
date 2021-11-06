@@ -1,0 +1,378 @@
+@import 'index.css';
+html,body {
+	max-width: 100%;
+  overflow-x: hidden;
+ }
+
+nav {
+	background: #FEFDFE;
+}
+nav a {
+  text-decoration: none;
+  color: #E3CD07;
+}
+.herosection {
+	background-color: #FEFDFE;
+	display: flex;
+	justify-content: space-between;
+}
+
+.herosection h5 {
+	color: #C5BDE0;
+}
+.herosection h2 {
+	/*max-width: 471px;*/
+}
+.herosection div .content p  {
+	color: #3B3A40;
+}
+.herosection div .content a svg {
+	max-width: 24px;
+	margin-top: 0px;
+}
+
+h2 span{
+	background: linear-gradient(180deg, #5039A3 0%, #3707E3 117.02%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	max-width: 471px;
+}
+h4, h5,h6 {
+	background: linear-gradient(180deg, #19181B 0%, #B2B2B3 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.herosection .content p {
+	color: #3B3A40;
+}
+.projectdetails, .atr, .atc {
+	margin: 120px 0px;
+}
+/*
+.projectdetails .bodycontent {
+	display: flex;
+	align-items: center;
+}*/
+
+.projectdetails .content {
+	display: flex;
+	justify-content: center;
+	/*align-items: center;*/
+}
+
+.projectdetails .content .first {
+	display: flex;
+	/*justify-content: flex-start;*/
+}
+
+.projectdetails .content ul {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+}
+.projectdetails .content ul li {
+	margin: 0;
+	padding: 10px 0px;
+}
+
+
+.projectdetails .content .p {
+	max-width: 232px;
+}
+
+.projectdetails .content .p1 {
+	max-width: 293px;
+}
+.projectdetails .content-0 {
+	max-width: 784px;
+}
+/*.testimonial div:first-child img {
+	max-height: 420px;
+}*/
+.loginmockup .content {
+	display: flex;
+	align-items: center;
+}
+.loginmockup img {
+	max-width:800px;
+}
+.prototype .content a img {
+	max-width: 700px;
+}
+.loginmockup .content .header  h6 {
+	max-width: 200px;
+	text-align: left;
+}
+.loginmockup .content .image {
+	display: flex;
+	justify-content: center;
+}
+.prototype {
+	text-align: center;
+}
+.prototype h5 {
+	text-align: left;
+	margin-bottom: 40px;
+}
+.prototypestage .content p {
+	max-width: 600px;
+}
+
+.research {
+	margin:  120px 0px 0px 0px;
+	padding-bottom: 0px;
+}
+.researchscreenshot {
+	margin-top: 0px;
+	padding-top: 0px;
+	/*background-color: blue;*/
+}
+
+.summary {
+	display: flex;
+	justify-content: safe center;
+	padding: 60px 0px;
+	/*background-color: red;*/
+}
+.summary h5 {
+	margin: 0 auto;
+	max-width: 697px;
+	background: #5039A3;
+	font-style: italic;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;	
+}
+
+.atc {
+	margin-bottom: 0px;
+}
+.acs {
+	margin-top: 0px;
+	padding-top: 0px;
+	/*background-color: red;*/
+}
+.acs .body {
+
+	display: flex;
+	justify-content: center;
+}
+.acs .body img {
+	max-width: 1200px;
+}
+.bof {
+	margin: 120px 0px;
+}
+.userpersona.content {
+	margin: 120px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+
+.userpersona .image {
+	display: flex;
+	justify-content: center;
+}
+.ideation {
+	margin: 120px 0px;
+}
+.ideation .body {
+	display:  flex;
+	align-items: center;
+}
+
+.ideation .content p {
+
+	max-width:  697px;
+}
+.ideation-img .body {
+	display: flex;
+	justify-content: center;
+}
+.ideation .ideation-img {
+	margin-top: 40px;
+}
+.ideation .ideation-img img {
+	max-width: 700px;
+}
+.prototypestage  p {
+	max-width: 600px;
+}
+.sketches {
+	margin-top: 120px;
+}
+.sketches h6 {
+	text-align: center;
+	margin-bottom: 0px;
+}
+.sketches img {
+	max-width: 600px;
+}
+.sketches .image {
+	display: flex;
+	justify-content: center;
+}
+.sketches .image .body{
+	
+	text-align: center;
+}
+.projectdetails .body img {
+	max-width: 700px;
+}
+.projectdetails .body {
+	display: flex;
+	justify-content: center;
+}
+.projectdetails.solution h4{
+
+	max-width: 400px;
+}
+.conclusion {
+	background-color: #F7F5FF;
+	/*padding: 60px 0px;*/
+
+}
+.conclusion div {
+	margin: 20px 0px;
+}
+.conclusion .content-0 p {
+	max-width:  697px;
+}
+
+.conclusion .body .image {
+	text-align: center;
+}
+.conclusion .body .image img {
+	max-width: 700px;
+}
+.conclusion h5 {
+	margin: 0 auto;
+	max-width: 697px;
+	background: #5039A3;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;	
+}
+@media screen and (max-width: 960px) {
+
+	.navigation ul {
+	  background-color: #FEFDFE;
+	  box-shadow: 0px 4px 8px 0px #5039A31A;
+ 	}
+}
+@media screen and (max-width: 576px) {
+	html, body {
+		box-sizing: border-box;
+		overflow-x: hidden;
+	}
+
+	.herosection div .image {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		/*background: red;*/
+		padding: 20px 0px;
+	}
+
+	.herosection .image img{
+		margin: 0;
+		padding: 0;
+		
+	}
+	.herosection .mouse {
+		display: none;
+	}
+
+	.researchimage img, .loginmockup .image img, .acs .body img, .ideation .ideation-img .body img, .sketches .body img {
+		max-width: 500px;
+	}
+	.loginmockup .image a img {
+		max-width: 450px;
+	}
+
+	.conclusion .body .image img {
+		max-width:  500px;
+	}
+	footer ul li {
+		margin: 40px 0px;
+	}
+	footer ul li:last-child {
+		margin: 40px 0px;
+	}
+	.projectdetails .content p {
+		margin-left: 16px;
+	}
+	.research div {
+		padding: 0px 0px;
+	}
+	.loginmockup .atr div, .loginmockup .atc div, .loginmockup .bof div, .userpersona.content div{
+		padding: 0px 0px;
+	}
+	.userpersona.content .header h6,.loginmockup .content .header h6 {
+		max-width: 400px;
+	}
+	.projectdetails .atr .content-0 p, .projectdetails .atc .content-0 p,.projectdetails .tvuf p, .solution .content-0 p {
+		margin: 0px 0px;
+	}
+}
+
+@media screen and (max-width: 428px) {
+	html, body {
+		box-sizing: border-box;
+		overflow-x: hidden;
+	}
+
+	.herosection div .image {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		/*background: red;*/
+		padding: 20px 0px;
+	}
+
+	.herosection .image img{
+		margin: 0;
+		padding: 0;
+		
+	}
+	.herosection .mouse {
+		display: none;
+	}
+
+	.researchimage img, .loginmockup .image img, .acs .body img, .ideation .ideation-img .body img, .sketches .body img {
+		max-width: 240px;
+	}
+	.loginmockup .image a img {
+		max-width: 220px;
+	}
+
+	.conclusion .body .image img {
+		max-width:  240px;
+	}
+	footer ul li {
+		margin: 40px 0px;
+	}
+	footer ul li:last-child {
+		margin: 40px 0px;
+	}
+	.projectdetails .content p {
+		margin-left: 16px;
+	}
+	.research div {
+		padding: 0px 0px;
+	}
+	.loginmockup .atr div, .loginmockup .atc div, .loginmockup .bof div, .userpersona.content div{
+		padding: 0px 0px;
+	}
+	.userpersona.content .header h6,.loginmockup .content .header h6 {
+		max-width: 320px;
+	}
+	.projectdetails .atr .content-0 p, .projectdetails .atc .content-0 p,.projectdetails .tvuf p, .solution .content-0 p {
+		margin: 0px 0px;
+	}
+}
