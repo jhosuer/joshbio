@@ -401,7 +401,7 @@ caption {
   position: absolute;
   top: 34px;
   width: 40%;
-  padding: 0px;  
+  padding: 0px 40px;  
   border-radius: 4px;
   margin: 0px;
   background-color: #974FF4;
@@ -450,6 +450,17 @@ caption {
   .work-bg-secondary {
     margin-bottom: 120px;
   }
+  .workscontent .work-bg .contentbody {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+ .workscontent .work-bg .contentbody h6 {
+    margin: 8px 0px;
+  }
+  .workscontent .work-bg .contentbody p {
+    margin: 16px 0px;
+  }
   .projectassess {
     display: flex;
     justify-content: center;
@@ -462,16 +473,20 @@ caption {
   }
   .projectassess p {
     max-width: 400px;
-    margin:  0 auto;
+    margin:  0px auto;
 
   }
-
-
   .projectassess a {
-    margin: 40px 0px;
+    /*margin: 40px 0px;*/
   }
   .aboutme .image .body {
     flex-direction: column;
+  }
+
+  .herosection div .image {
+    display: flex;
+    margin: 40px 0px;
+    align-items: center;
   }
 
   footer h3 {
@@ -490,6 +505,13 @@ caption {
 }
 
 @media screen and (max-width: 428px) {
+  .herosection div h1 {
+    max-width: 340px;
+  }
+   .herosection div p, .aboutme .content p {
+    max-width: 320px;
+  }
+
 
   .work-bg, .work-bg-secondary {
     max-width: 320px;
@@ -509,11 +531,32 @@ caption {
     max-width: 240px;
     text-align: center;
   }
-   footer p {
+  footer p {
     max-width: 240px;
     text-align: center;
   }
+  footer ul {
+    padding: 0px;
+  }
+
+  footer ul li {
+    margin:  40px 0px;
+  }
+  
+  footer ul li:last-child {
+    margin:  40px 0px;
+  }
+
   .p3 .work-bg-secondary {
     left: 0%;
+  }
+
+  .navigation ul {
+    padding: 0px 60px;  
+  }
+
 }
+
+@media screen and (max-width: 360px) {
+
 }
