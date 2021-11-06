@@ -91,3 +91,10 @@ button {
 .loginmockup .tech4dev p:last-child {
   margin-top: 60px;
 }
+
+@media screen and (max-width: 428px) {
+
+  .non-work .content .image img {
+    max-width: 320px;
+  }
+}
